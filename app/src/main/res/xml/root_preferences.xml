@@ -1,0 +1,83 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/general_header"
+        android:layout="@layout/preference_category_material3">
+
+        <EditTextPreference
+            android:defaultValue="London"
+            android:key="city"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:layout="@layout/basic_preference_iconless"
+            android:title="@string/city_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:defaultValue="device"
+            app:entries="@array/language_entries"
+            app:entryValues="@array/language_values"
+            android:key="language"
+            android:layout="@layout/basic_preference_iconless"
+            android:title="@string/language_title"
+            app:useSimpleSummaryProvider="true"/>
+
+        <Preference
+            app:key="gpsLocation"
+            android:layout="@layout/basic_preference"
+            android:icon="@drawable/add_location_24"
+            app:title="@string/gps_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/units_of_measurement"
+        android:layout="@layout/preference_category_material3">
+        <ListPreference
+            app:defaultValue="metric"
+            app:entries="@array/units_entries"
+            app:entryValues="@array/units_values"
+            app:key="units"
+            android:layout="@layout/basic_preference_iconless"
+            app:title="@string/units_of_measurement"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="mbar"
+            app:entries="@array/unitsOfPressure_entries"
+            app:entryValues="@array/unitsOfPressure_values"
+            app:key="unitsOfPressure"
+            android:layout="@layout/basic_preference_iconless"
+            app:title="@string/atmospheric_pressure_units"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/other"
+        android:layout="@layout/preference_category_material3">
+        <ListPreference
+            app:defaultValue="default"
+            app:entries="@array/theme_entries"
+            app:entryValues="@array/theme_values"
+            app:key="theme"
+            android:layout="@layout/basic_preference_iconless"
+            app:title="@string/theme_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="gifs"
+            android:title="@string/gifs_title"
+            android:summary="@string/gifs_description"
+            android:layout="@layout/icon_switch_preference" />
+
+        <ListPreference
+            app:defaultValue="aquarius"
+            app:entries="@array/zodiac_entries"
+            app:entryValues="@array/zodiac_values"
+            app:key="zodiac_sign"
+            android:layout="@layout/basic_preference_iconless"
+            app:title="@string/zodiac_sign"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

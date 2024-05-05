@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <string name="app_name">Prosta pogoda</string>-->
+    <string name="logo">Pogoda w Twoim mieście</string>
+    <string name="hint_user_field">Wpisz swoje miasto</string>
+    <string name="main_btn">Dowiedz się o pogodzie</string>
+    <string name="no_user_input">Proszę wpisać miasto</string>
+    <string name="temperature">Temperatura:</string>
+    <string name="wait">Proszę czekać…</string>
+    <string name="error">Błąd. Proszę spróbuj ponownie</string>
+    <string name="lang">pl</string>
+    <string name="weather">Pogoda:</string>
+    <string name="settings">Ustawienia</string>
+    <string name="owm_disclaimer">Dane pogodowe dostarczane przez OpenWeatherMap</string>
+    <string name="rainy">Na zewnątrz pada deszcz! ☔\nIdealny czas na książkę i filiżankę herbaty 📚☕️</string>
+    <string name="cold">Na zewnątrz jest zimno 🥶\nCzas napić się gorącego kakao ☕️</string>
+    <string name="coolBreeze">Ciesz się chłodną bryzą! 🍂\nIdealny czas na orzeźwiający spacer po parku 🌳</string>
+    <string name="pleasant">Ciesz się ciepłą pogodą! 🌼\nWybierz się na spacer i ciesz się kwitnącymi kwiatami 🌷</string>
+    <string name="warm">Wyjdź na zewnątrz i zażyj trochę witaminy D! 🌴🕶️\nCudowny dzień na zajęcia na świeżym powietrzu 🚴‍♀️🌞</string>
+    <string name="hot">Zagrożenie upałem 🔥\nPij więcej wody i znajdź cień, aby się ochłodzić ☀️🌊</string>
+    <string name="theme">Temat</string>
+    <string name="location_off">Wygląda na to, że lokalizacja jest wyłączona. Włącz go, abyśmy mogli kontynuować naszą podróż ⛵</string>
+    <string name="general_header">Podstawowy</string>
+    <string name="city_title">Miasto</string>
+    <string name="language_title">Język</string>
+    <string name="device_language">Język urządzenia</string>
+
+    <string-array name="theme_entries">
+        <item>Światło</item>
+        <item>Ciemny</item>
+        <item>Motyw urządzenia</item>
+    </string-array>
+    <string name="rain">deszcz</string>
+    <string name="gifs_title">Gify</string>
+    <string name="gifs_description">Wyświetlaj śmieszne animowane obrazy za każdym razem, gdy sprawdzasz pogodę</string>
+    <string name="cat_gif">Gif z kotem</string>
+    <string name="gps_title">Uzyskaj lokalizację automatycznie</string>
+    <string name="units_of_measurement">System pomiarowy</string>
+    <string-array name="units_entries">
+        <item>Metryczny</item>
+        <item>Imperialny</item>
+    </string-array>
+    <string name="meter_per_second">%1$s m/s</string>
+    <string name="mph">%1$s mil na godzinę</string>
+    <string name="wind_speed">Prędkość wiatru</string>
+    <string name="atmospheric_pressure">Ciśnienie atmosferyczne</string>
+    <string name="pressure_hpa">%1$s hPa</string>
+    <string name="details">Więcej szczegółów</string>
+    <string name="humidity">Wilgotność powietrza</string>
+    <string name="sunrise">Wschód słońca</string>
+    <string name="sunset">Zachód słońca</string>
+    <string name="length_of_day">Długość dnia</string>
+    <string name="five_day_forecast">Prognoza na 5 dni</string>
+    <string name="overview">Przegląd</string>
+    <string name="forecast">Prognoza</string>
+    <string name="atmospheric_pressure_units">Jednostki ciśnienia atmosferycznego</string>
+    <string name="pressure_mbar">%1$s mbar</string>
+    <string name="pressure_mmHg">%1$s mmHg</string>
+    <string name="pressure_inHg">%1$s cali Hg</string>
+    <string name="pressure_atm">%1$s atm</string>
+    <string-array name="unitsOfPressure_entries">
+        <item>Milibary (mbar)</item>
+        <item>Milimetry rtęci (mmHg)</item>
+        <item>Cale rtęci (inHg)</item>
+        <item>Atmosfera standardowa (atm)</item>
+    </string-array>
+    <string name="other">Inne</string>
+    <string name="feels_like">Czuję się jak %1$s</string>
+    <string-array name="zodiac_entries">
+        <item>Baran</item>
+        <item>Byk</item>
+        <item>Bliźnięta</item>
+        <item>Rak</item>
+        <item>Leo</item>
+        <item>Panna</item>
+        <item>Waga</item>
+        <item>Skorpion</item>
+        <item>Strzelec</item>
+        <item>Koziorożec</item>
+        <item>Wodnik</item>
+        <item>Ryby</item>
+    </string-array>
+    <string name="zodiac_sign">Znak zodiaku</string>
+    <string name="horoscope">Horoskop</string>
+    <string name="done">Gotowy!</string>
+    <string name="incorrect_location">Lokalizacja wydaje się być nieprawidłowa. Nie ma problemu – po prostu napraw to w ustawieniach.</string>
+    <string name="loading">Ładowanie…</string>
+    <string name="default_zodiac_sign_warning">Domyślnym znakiem zodiaku jest Wodnik. Zawsze możesz wybrać swój w ustawieniach.</string>
+    <string name="incorrect_zodiac_sign_error">Błąd: znak zodiaku jest nieprawidłowy. Sprawdź swoje ustawienia i spróbuj ponownie.</string>
+</resources>

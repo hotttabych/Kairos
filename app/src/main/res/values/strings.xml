@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name" translatable="false">Καιρός</string>
+    <string name="logo">Weather outside</string>
+    <string name="hint_user_field">Where do you live?</string>
+    <string name="main_btn">What\'s the weather?</string>
+    <string name="no_user_input">Enter your city, please</string>
+    <string name="temperature">Temperature:</string>
+    <string name="wait">Please wait…</string>
+    <string name="error">Oops! Something went wrong. Please, try again</string>
+    <string name="celsius" translatable="false">%1$s °C</string>
+    <string name="fahrenheit" translatable="false">%1$s °F</string>
+    <string name="lang">en</string>
+    <string name="weather">Weather:</string>
+    <string name="settings">Settings</string>
+    <string name="owm_disclaimer">Weather data provided by OpenWeatherMap</string>
+    <string name="cold">Stay cozy indoors! 🏠\nTime to bundle up and enjoy a warm cup of cocoa ☕️</string>
+    <string name="coolBreeze">Enjoy the cool breeze outside! 🍂\nPerfect time for a refreshing walk at the park 🌳</string>
+    <string name="pleasant">Embrace the mild weather! 🌼\nTake a stroll and enjoy the blooming flowers 🌷</string>
+    <string name="warm">Get outdoors and soak up some Vitamin D! 🌴🕶️\nA great day for outdoor activities 🚴‍♀️🌞</string>
+    <string name="hot">Hot day alert! 🔥\nStay hydrated and find some shade to cool off ☀️🌊</string>
+    <string name="theme">Theme</string>
+    <string name="location_off">Location seems to be disabled. Enable it so we can continue our journey ⛵</string>
+
+    <!-- Preference Titles -->
+    <string name="general_header">General</string>
+
+    <!-- Main preferences -->
+    <string name="city_title">City</string>
+    <string name="language_title">Language</string>
+    <string name="theme_title" translatable="false">@string/theme</string>
+
+    <string name="device_language">Device language</string>
+
+    <string-array name="theme_entries">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Device default</item>
+    </string-array>
+    <string name="rainy">It\'s raining outside! ☔\nPerfect time for a book and a cup of tea 📚☕️</string>
+    <string name="rain">rain</string>
+    <string name="grinning_cat" translatable="false">😸😸😸</string>
+    <string name="gifs_title">GIFs</string>
+    <string name="gifs_description">Show funny animated images every time you check the weather</string>
+    <string name="cat_gif">A cat GIF</string>
+    <string name="gps_title">Get location automatically</string>
+    <string name="units_of_measurement">Units of measurement</string>
+    <string-array name="units_entries">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+    <string name="meter_per_second">%1$s m/s</string>
+    <string name="mph">%1$s mph</string>
+    <string name="wind_speed">Wind speed</string>
+    <string name="atmospheric_pressure">Atmospheric pressure</string>
+    <string name="pressure_hpa">%1$s hPa</string>
+    <string name="details">Details</string>
+    <string name="humidity">Air humidity</string>
+    <string name="percent" translatable="false">%1$s %%</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+    <string name="length_of_day">Length of day</string>
+    <string name="five_day_forecast">5 day forecast</string>
+    <string name="overview">Overview</string>
+    <string name="forecast">Forecast</string>
+    <string name="pressure_mbar">%1$s mbar</string>
+    <string name="pressure_mmHg">%1$s mmHg</string>
+    <string name="pressure_inHg">%1$s inHg</string>
+    <string name="pressure_atm">%1$s atm</string>
+    <string name="atmospheric_pressure_units">Atmospheric pressure units</string>
+    <string-array name="unitsOfPressure_entries">
+        <item>Millibars (mbar)</item>
+        <item>Millimeters of mercury (mmHg)</item>
+        <item>Inches of mercury (inHg)</item>
+        <item>Standard atmosphere (atm)</item>
+    </string-array>
+    <string name="other">Other</string>
+    <string name="feels_like">Feels like %1$s</string>
+    <string-array name="zodiac_entries">
+        <item>Aries</item>
+        <item>Taurus</item>
+        <item>Gemini</item>
+        <item>Cancer</item>
+        <item>Leo</item>
+        <item>Virgo</item>
+        <item>Libra</item>
+        <item>Scorpio</item>
+        <item>Sagittarius</item>
+        <item>Capricorn</item>
+        <item>Aquarius</item>
+        <item>Pisces</item>
+    </string-array>
+    <string name="zodiac_sign">Zodiac sign</string>
+    <string name="horoscope">Horoscope</string>
+    <string name="done">Done!</string>
+    <string name="incorrect_location">The location appears to be incorrect. Not a big deal - just fix it in the settings.</string>
+    <string name="loading">Loading…</string>
+    <string name="default_zodiac_sign_warning">The default zodiac sign is Aquarius. You can always choose yours in the settings.</string>
+    <string name="incorrect_zodiac_sign_error">Error: the zodiac sign is incorrect. Check your settings and try again.</string>
+</resources>

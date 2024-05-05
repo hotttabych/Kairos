@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="logo">Надвор\'е ў вашым горадзе</string>
+    <string name="hint_user_field">Увядзіце свой горад</string>
+    <string name="main_btn">Даведацца аб надвор\'і</string>
+    <string name="no_user_input">Калі ласка, увядзіце горад</string>
+    <string name="temperature">Тэмпература:</string>
+    <string name="wait">Калі ласка, пачакайце…</string>
+    <string name="error">Памылка. Калі ласка, паспрабуйце зноў</string>
+    <string name="lang">be</string>
+    <string name="weather">Надвор\'е:</string>
+    <string name="settings">Налады</string>
+    <string name="owm_disclaimer">Дадзеныя аб надвор\'і прадстаўлены OpenWeatherMap</string>
+    <string name="rainy">На вуліцы дождж! ☔\nЧас для кнігі і чашкі гарачай гарбаты 📚☕️</string>
+    <string name="cold">На вуліцы холадна 🥶\nЧас атрымаць асалоду ад кубачка гарачай какавы ☕️</string>
+    <string name="coolBreeze">Атрымлівайце асалоду ад прахалоднага брызу! 🍂\nІдэальны час для асвяжальнай прагулкі ў парку 🌳</string>
+    <string name="pleasant">Атрымлівайце асалоду ад цёплага надвор\'я! 🌼\nПрагуляйцеся і нацешыцеся квітнеючымі кветкамі 🌷</string>
+    <string name="warm">Выйдзіце на вуліцу і атрымаеце крыху вітаміна D! 🌴🕶️\nВыдатны дзень для заняткаў на свежым паветры 🚴‍♀️🌞</string>
+    <string name="hot">Небяспека спякоты 🔥\nПіце больш вады і знайдзіце цень, каб астудзіцца ☀️🌊</string>
+    <string name="theme">Тэма</string>
+    <string name="location_off">Падобна, месцазнаходжанне адключанае. Уключыце яго, каб мы маглі працягнуць наша падарожжа ⛵</string>
+    <string name="general_header">Асноўныя</string>
+    <string name="city_title">Горад</string>
+    <string name="language_title">Мова</string>
+    <string name="device_language">Мова прылады</string>
+
+    <string name="rain">дождж</string>
+
+    <string-array name="theme_entries">
+        <item>Светлая</item>
+        <item>Цёмная</item>
+        <item>Тэма прылады</item>
+    </string-array>
+    <string name="gifs_title">Гіфкі</string>
+    <string name="gifs_description">Паказваць пацешныя аніміраваныя выявы кожны раз, калі вы глядзіце надвор\'е</string>
+    <string name="cat_gif">Гіфка з коткай</string>
+    <string name="gps_title">Атрымаць месцазнаходжанне аўтаматычна</string>
+    <string name="units_of_measurement">Сістэма вымярэння</string>
+    <string-array name="units_entries">
+        <item>Мэтрычная</item>
+        <item>Імперская</item>
+    </string-array>
+    <string name="meter_per_second">%1$s м/с</string>
+    <string name="mph">%1$s міль у гадзіну</string>
+    <string name="wind_speed">Хуткасць ветру</string>
+    <string name="atmospheric_pressure">Атмасферны ціск</string>
+    <string name="pressure_hpa">%1$s гПа</string>
+    <string name="details">Больш падрабязна</string>
+    <string name="humidity">Вільготнасць паветра</string>
+    <string name="sunrise">Усход сонца</string>
+    <string name="sunset">Закат</string>
+    <string name="length_of_day">Даўжыня дня</string>
+    <string name="five_day_forecast">Прагноз на 5 дзён</string>
+    <string name="overview">Агляд</string>
+    <string name="forecast">Прагноз</string>
+    <string name="atmospheric_pressure_units">Адзінкі вымярэння атмасфернага ціску</string>
+    <string name="pressure_mbar">%1$s мбар</string>
+    <string name="pressure_mmHg">%1$s мм рт.сл.</string>
+    <string name="pressure_inHg">%1$s цаляў рт.сл.</string>
+    <string name="pressure_atm">%1$s атм.</string>
+    <string-array name="unitsOfPressure_entries">
+        <item>Мілібары (мбар)</item>
+        <item>Міліметры ртутнага слупка (мм рт. сл.)</item>
+        <item>Цалі ртутнага слупка (цалі рт. сл.)</item>
+        <item>Стандартная атмасфера (атм.)</item>
+    </string-array>
+    <string name="other">Іншыя</string>
+    <string name="feels_like">Адчуваецца як %1$s</string>
+    <string-array name="zodiac_entries">
+        <item>Авен</item>
+        <item>Цялец</item>
+        <item>Блізняты</item>
+        <item>Рак</item>
+        <item>Леў</item>
+        <item>Дзева</item>
+        <item>Шалі</item>
+        <item>Скарпіён</item>
+        <item>Стралец</item>
+        <item>Казярог</item>
+        <item>Вадалей</item>
+        <item>Рыбы</item>
+    </string-array>
+    <string name="zodiac_sign">Знак задыяку</string>
+    <string name="horoscope">Гараскоп</string>
+    <string name="done">Гатова!</string>
+    <string name="incorrect_location">Здаецца, месцазнаходжанне пазначана няправільна. Нічога страшнага — проста выпраўце яго ў наладах.</string>
+    <string name="loading">Загружаем…</string>
+    <string name="default_zodiac_sign_warning">Знак задыяку па змаўчанні - вадалей. Вы заўсёды можаце выбраць свой у наладах.</string>
+    <string name="incorrect_zodiac_sign_error">Памылка: знак задыяку паказаны няправільна. Праверце наладкі і паспрабуйце яшчэ раз.</string>
+</resources>

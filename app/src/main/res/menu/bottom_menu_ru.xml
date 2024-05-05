@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/overviewBtn"
+        android:icon="@drawable/dashboard_24"
+        android:title="@string/overview" />
+    <item
+        android:id="@+id/forecastBtn"
+        android:icon="@drawable/cloud_24"
+        android:title="@string/forecast" />
+    <item
+        android:id="@+id/horoscopeBtn"
+        android:icon="@drawable/horoscope_24"
+        android:title="@string/horoscope" />
+</menu>

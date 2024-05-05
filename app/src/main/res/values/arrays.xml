@@ -1,0 +1,48 @@
+<resources>
+    <string-array name="theme_values">
+        <item>light</item>
+        <item>dark</item>
+        <item>default</item>
+    </string-array>
+    <string-array name="language_values">
+        <item>en</item>
+        <item>ru</item>
+        <item>uk</item>
+        <item>be</item>
+        <item>pl</item>
+        <item>device</item>
+    </string-array>
+    <string-array name="units_values">
+        <item>metric</item>
+        <item>imperial</item>
+    </string-array>
+    <string-array name="unitsOfPressure_values">
+        <item>mbar</item>
+        <item>mmHg</item>
+        <item>inHg</item>
+        <item>atm</item>
+    </string-array>
+    <string-array name="zodiac_values">
+        <item>aries</item>
+        <item>taurus</item>
+        <item>gemini</item>
+        <item>cancer</item>
+        <item>leo</item>
+        <item>virgo</item>
+        <item>libra</item>
+        <item>scorpio</item>
+        <item>sagittarius</item>
+        <item>capricorn</item>
+        <item>aquarius</item>
+        <item>pisces</item>
+    </string-array>
+
+    <string-array name="language_entries">
+        <item>English</item>
+        <item>Русский</item>
+        <item>Українська</item>
+        <item>Беларуская</item>
+        <item>Polski</item>
+        <item>@string/device_language</item>
+    </string-array>
+</resources>

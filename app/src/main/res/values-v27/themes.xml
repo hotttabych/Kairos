@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.Kairos" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/ka_icon_background</item>
+        <item name="colorSecondaryContainer">@color/ka_icon_background</item>
+        <item name="colorTertiary">@color/ka_icon_background</item>
+        <item name="android:windowBackground">@color/bubbles_color</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="statusBarBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.Kairos" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/ka_icon_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="statusBarBackground">@color/ka_icon_background</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/bubbles_color</item>
+        <item name="android:navigationBarColor">@color/ka_icon_background</item>
+    </style>
+
+    <style name="Theme.Kairos.Dashboard" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/ka_icon_background</item>
+        <item name="colorSecondaryContainer">@color/ka_icon_background</item>
+        <item name="colorTertiary">@color/ka_icon_background</item>
+        <item name="android:windowBackground">@color/bubbles_color</item>
+        <item name="android:textColorSecondary">@color/colorPrimary</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:navigationBarColor">@color/ka_icon_background</item>
+        <item name="android:statusBarColor">@color/ka_icon_background</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Kairos.SingleColour" parent="Base.Theme.Kairos">
+        <item name="android:windowBackground">@color/bubbles_color</item>
+        <item name="android:navigationBarColor">@color/bubbles_color</item>
+        <item name="android:statusBarColor">@color/bubbles_color</item>
+        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+        <item name="android:windowLightNavigationBar">?attr/isLightTheme</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog.Monet</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog.Monet</item>
+    </style>
+</resources>

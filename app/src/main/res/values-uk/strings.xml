@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <string name="app_name">Проста погода</string>-->
+    <string name="logo">Погода у вашому місті</string>
+    <string name="hint_user_field">Де ви живете?</string>
+    <string name="main_btn">Дізнатися погоду</string>
+    <string name="no_user_input">Будь ласка, введіть місто</string>
+    <string name="temperature">Температура:</string>
+    <string name="wait">Будь ласка, зачекайте…</string>
+    <string name="error">Щось пішло не так. Будь ласка, спробуйте знову</string>
+    <string name="lang">uk</string>
+    <string name="weather">Погода:</string>
+    <string name="settings">Налаштування</string>
+    <string name="owm_disclaimer">Дані про погоду надані OpenWeatherMap</string>
+    <string name="rainy">На вулиці йде дощ! ☔\nЧас для книги та чашки гарячого чаю 📚☕️</string>
+    <string name="cold">На вулиці холодно 🥶\nЧас насолодитися чашкою гарячого какао ☕️</string>
+    <string name="coolBreeze">Насолоджуйтесь прохолодним бризом! 🍂\nІдеальний час для освіжаючої прогулянки в парку 🌳</string>
+    <string name="pleasant">Насолоджуйтесь теплою погодою! 🌼\nПрогуляйтеся і насолоджуйтеся квітами, що розквітають 🌷</string>
+    <string name="warm">Вийдіть на вулицю та отримайте трохи вітаміну D! 🌴🕶️\nПрекрасний день для занять на свіжому повітрі 🚴‍♀️🌞</string>
+    <string name="hot">Небезпека спеки 🔥\nПийте більше води і знайдіть тінь, щоб охолонути ☀️🌊</string>
+    <string name="theme">Тема</string>
+    <string name="location_off">Здається, геодані вимкнено. Увімкніть іх, щоб ми могли продовжити нашу подорож ⛵</string>
+    <string name="general_header">Основні</string>
+    <string name="city_title">Місто</string>
+    <string name="language_title">Мова</string>
+    <string name="device_language">Мова пристрою</string>
+
+    <string-array name="theme_entries">
+        <item>Світла</item>
+        <item>Темна</item>
+        <item>Тема пристрою</item>
+    </string-array>
+    <string name="rain">дощ</string>
+    <string name="gifs_title">Гіфки</string>
+    <string name="gifs_description">Показувати кумедні анімовані зображення щоразу, коли ви дивитеся погоду</string>
+    <string name="cat_gif">Гіфка з котом</string>
+    <string name="gps_title">Отримати розташування автоматично</string>
+    <string name="units_of_measurement">Система виміру</string>
+    <string-array name="units_entries">
+        <item>Метрична</item>
+        <item>Імперська</item>
+    </string-array>
+    <string name="meter_per_second">%1$s м/с</string>
+    <string name="mph">%1$s миль/год</string>
+    <string name="wind_speed">Швидкість вітру</string>
+    <string name="atmospheric_pressure">Атмосферний тиск</string>
+    <string name="pressure_hpa">%1$s гПа</string>
+    <string name="details">Детальніше</string>
+    <string name="humidity">Вологість повітря</string>
+    <string name="sunrise">Схід сонця</string>
+    <string name="sunset">Захід сонця</string>
+    <string name="length_of_day">Тривалість дня</string>
+    <string name="five_day_forecast">Прогноз на 5 днів</string>
+    <string name="overview">Огляд</string>
+    <string name="forecast">Прогноз</string>
+    <string name="atmospheric_pressure_units">Одиниці вимірювання атмосферного тиску</string>
+    <string name="pressure_mbar">%1$s мбар</string>
+    <string name="pressure_mmHg">%1$s мм рт.ст.</string>
+    <string name="pressure_inHg">%1$s дюймів рт.ст.</string>
+    <string name="pressure_atm">%1$s атм.</string>
+    <string-array name="unitsOfPressure_entries">
+        <item>Мілібари (мбар)</item>
+        <item>Міліметри ртутного стовпа (мм рт. ст.)</item>
+        <item>Дюйми ртутного стовпа (дюйми рт. ст.)</item>
+        <item>Стандартна атмосфера (атм.)</item>
+    </string-array>
+    <string name="other">Інші</string>
+    <string name="feels_like">Відчувається як %1$s</string>
+    <string-array name="zodiac_entries">
+        <item>Овен</item>
+        <item>Телець</item>
+        <item>Близнюки</item>
+        <item>Рак</item>
+        <item>Лев</item>
+        <item>Діва</item>
+        <item>Терези</item>
+        <item>Скорпіон</item>
+        <item>Стрілець</item>
+        <item>Козеріг</item>
+        <item>Водолій</item>
+        <item>Риби</item>
+    </string-array>
+    <string name="zodiac_sign">Знак зодіаку</string>
+    <string name="horoscope">Гороскоп</string>
+    <string name="done">Готово!</string>
+    <string name="incorrect_location">Здається, місцезнаходження неправильне. Нічого страшного — просто виправте його в налаштуваннях.</string>
+    <string name="loading">Завантажуємо…</string>
+    <string name="default_zodiac_sign_warning">За замовчуванням знак зодіаку - водолій. Ви завжди можете вибрати свій в налаштуваннях.</string>
+    <string name="incorrect_zodiac_sign_error">Помилка: неправильно вказано знак зодіаку. Перевірте налаштування та спробуйте ще раз.</string>
+</resources>

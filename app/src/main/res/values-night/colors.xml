@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FAF9F6</color>
+    <color name="textColor">@color/white</color>
+    <color name="textColorHint">#ccc</color>
+    <color name="logoBlue">#5570c4</color>
+    <color name="ka_icon_background">#121212</color>
+    <color name="bubbles_color">#353935</color>
+
+    <color name="widget_background_color">#1B1212</color>
+    <color name="widget_text_color">#FAF9F6</color>
+</resources>
